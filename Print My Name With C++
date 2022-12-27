@@ -1,6 +1,0 @@
-#include<stdio.h>
-main()
-{
-    printf("Jogendra Nath Roy Chayan");
-    
-}

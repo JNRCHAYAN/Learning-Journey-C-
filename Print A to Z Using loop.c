@@ -10,11 +10,19 @@ main()
         printf("%c\n",alphabet);
     }*/
 
-    while(alphabet<='Z')
+    /*while(alphabet<='Z')
     {
           printf("%c\n",alphabet);
           alphabet++;
+    } */
+
+    do
+    {
+        printf("%c\n",alphabet);
+        alphabet++;
     }
+    while(alphabet<='Z');
+    return 0;
 
 
 

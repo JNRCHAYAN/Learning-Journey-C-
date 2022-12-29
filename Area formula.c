@@ -1,11 +1,11 @@
 #include <stdio.h>
-    int main()
+    main()
     {
         float A,B,C,pi = 3.14159, TRIANGULO, CIRCULO, TRAPEZIO, QUADRADO,RETANGULO;
 
-        scanf("%f %f %f ",&A,&B,&C);
+        scanf("%f%f%f",&A,&B,&C);
 
-        TRIANGULO= 0.5 * A*C;
+        TRIANGULO= 0.5*A*C;
         CIRCULO = pi*C*C;
         TRAPEZIO= 0.5*(A+B)*C;
         QUADRADO= B*B;
@@ -13,10 +13,11 @@
 
 
 
-        printf("TRIANGULO = %d\n",TRIANGULO);
-        printf("CIRCULO = %d\n",CIRCULO);
-        printf("TRAPEZIO = %d\n",TRAPEZIO);
-        printf("QUADRADO = %d\n",QUADRADO);
-        printf("RETANGULO = %d\n",RETANGULO);
+        printf("TRIANGULO: %.3f\n",TRIANGULO);
+        printf("CIRCULO: %.3f\n",CIRCULO);
+        printf("TRAPEZIO: %.3f\n",TRAPEZIO);
+        printf("QUADRADO: %.3f\n",QUADRADO);
+        printf("RETANGULO: %.3f\n",RETANGULO);
 
     }
+

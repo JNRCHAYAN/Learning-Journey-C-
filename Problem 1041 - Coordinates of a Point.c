@@ -1,10 +1,10 @@
 #include<stdio.h>
 main()
 {
-    float x,y;
-        scanf("%f%f",&x,&y);
+    double x,y;
+        scanf("%lf%lf",&x,&y);
 
-        if (x + y == 0)
+        if (x + y== 0)
         {
             printf("Origem\n");
         }
@@ -23,7 +23,7 @@ main()
         }
          else if (y==0)
         {
-            printf("Eixo Y\n");
+            printf("Eixo X\n");
         }
         else if (x==0)
         {

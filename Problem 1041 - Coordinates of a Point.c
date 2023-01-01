@@ -4,7 +4,7 @@ main()
     float x,y;
         scanf("%f%f",&x,&y);
 
-        if (X + Y == 0)
+        if (x + y == 0)
         {
             printf("Origem\n");
         }

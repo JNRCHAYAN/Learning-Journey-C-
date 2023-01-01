@@ -12,6 +12,10 @@ main()
         {
             printf("Q2\n");
         }
+        else if (x>0&&y>0)
+        {
+            printf("Q1\n");
+        }
 
          else if (x<0&&y<0)
         {

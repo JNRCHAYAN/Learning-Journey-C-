@@ -8,14 +8,16 @@ main()
         {
             printf("Origem\n");
         }
-        else if (x<0&&y>0)
-        {
-            printf("Q2\n");
-        }
         else if (x>0&&y>0)
         {
             printf("Q1\n");
         }
+
+        else if (x<0&&y>0)
+        {
+            printf("Q2\n");
+        }
+
 
          else if (x<0&&y<0)
         {
@@ -31,7 +33,7 @@ main()
         }
         else if (x==0)
         {
-            printf("Eixo X\n");
+            printf("Eixo Y\n");
         }
 
 

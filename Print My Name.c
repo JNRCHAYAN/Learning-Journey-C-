@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-main()
+int main()
 {
     printf("Jogendra nath roy chayan");
+    return 0;
 }

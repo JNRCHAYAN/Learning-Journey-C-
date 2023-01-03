@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 
     int a ;
@@ -53,4 +53,5 @@ main()
     {
         printf("December\n");
     }
+    return 0;
 }

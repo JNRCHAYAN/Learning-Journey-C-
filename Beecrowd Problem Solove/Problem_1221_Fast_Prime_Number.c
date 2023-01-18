@@ -1,50 +1,38 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 
-int main()
-
-{
-
-    int i, j, X, N,k = 0, l;
-
-    scanf("%d", &N);
-
-    for(i = 0;i < N;i++)
-    {
-
-        scanf("%d", &X);
-
-        if(X==1 || X==2)printf("prime\n");
-          
-   if(X == 0){
+int main(){
+    int n, teste, i, j;
+    long p;
+    
+    scanf("%d", &n);
+    
+    for(i = 0; i <n; i++){
+            teste = 0;
+            scanf("%ld", &p);
+            
+            if(p == 0){
                  printf("%s\n", "Not Prime");
                  continue;
             }
-        else if (X > 2)
-        
-        {
-            for(j = 2;j < X;j++){
-
-            if(X%j == 0){
-
-            k = 2;
-
-            break;
-
+            
+            if(p == 1){
+                 printf("%s\n", "Not Prime");
+                 continue;
             }
-
-            else k = 1;
-            continue;
-
+            
+            if(p == 2){
+                 printf("%s\n", "Prime");
+                 continue;
+            }
+            
+            for(j = 2; j < sqrt(p)+1; j++){
+                    if(p%j == 0) teste++;
+                    if(teste == 2) break;
+            }
+            
+            if(teste >= 1) printf("%s\n", "Not Prime");
+            else printf("%s\n", "Prime");
     }
-
-       if(k == 2)printf("Not Prime\n");
-
-       else if(k == 1)printf("Prime\n");
-
-    }
-
-    }
-
     return 0;
-
 }

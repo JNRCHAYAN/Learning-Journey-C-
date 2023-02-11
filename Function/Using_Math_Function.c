@@ -1,11 +1,8 @@
 #include<stdio.h>
 #include<math.h>
-
 #define pi 3.1416
 #define max 180
-
-
-int main(int argc, char const *argv[])
+int main()
 {
     int angle;
     float x,y;

@@ -1,19 +1,26 @@
 #include<stdio.h>
 
-main()
+int main(int argc, char const *argv[])
 {
-    int a[5]={1,4,7,100,32};
+    int x;
+    scanf("%d",&x);
 
-    int i, max=-32768;
+    int to[];
+    int count=0;
 
-    for (i=0; i<5; i++)
+    for (int i=0;i<x;i++)
     {
-        if(a[i]>max)
-        {
-            max=a[i];
-        }
+        to[]= to[i]);
     }
-    printf("%d",max);
+
+      for (int j=0;i<x;i++)
+    {
+        count=count+to[i];
+    }
+
+    printf("%d",count);
 
 
+
+    return 0;
 }
